@@ -25,17 +25,13 @@ class SGCount {
 	
 	int [] CT (int nodeId, int synopsisLength) {
 		int [] localSynopsis = new int[synopsisLength];
-		//int i=0;
+		
 		int k=0;
-		//while(i<=node){
-		//int nodeId = Integer.valueOf(String.valueOf(node) + String.valueOf(i));
-                while((k < synopsisLength - 1) && (MessageDigest(nodeId, synopsisLength) == 0)) {
-                	//int nodeId = Integer.valueOf(String.valueOf(node) + String.valueOf(i));
-			        k = k+1;
+		while((k < synopsisLength - 1) && (MessageDigest(nodeId, synopsisLength) == 0)) {
+                 k = k+1;
 		        }
 				localSynopsis[k] = 1;
-			//i++;
-		
+			
 			for(int g =0; g < synopsisLength; g++) {
 				System.out.print(" " +localSynopsis[g]);
 			}	

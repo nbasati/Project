@@ -25,7 +25,6 @@ class SGCount {
 	
 	int [] CT (int nodeId, int synopsisLength) {
 		int [] localSynopsis = new int[synopsisLength];
-		
 		int k=0;
 		while((k < synopsisLength - 1) && (MessageDigest(nodeId, synopsisLength) == 0)) {
                  k = k+1;

@@ -70,9 +70,6 @@ class SGSum {
 				int sensedValue=r.nextInt(max - min + 1) + min;
 				System.out.println("Sensed value ="+sensedValue);
 				
-				//System.out.println("\n");
-				//int sensedValue = sc.nextInt();
-				
 				int [] temp = new int[synoposisLenght];
 				temp = synopsis.syno(i, sensedValue, synoposisLenght);
 				i++;

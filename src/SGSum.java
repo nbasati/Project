@@ -65,8 +65,8 @@ class SGSum {
 			while (i <= node) {
 				
 				Random r = new Random();
-				int min =0;
-				int max =100;
+				int min =10;
+				int max =1000;
 				int sensedValue=r.nextInt(max - min + 1) + min;
 				System.out.println("Sensed value ="+sensedValue);
 				

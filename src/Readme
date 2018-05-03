@@ -1,0 +1,29 @@
+Contents
+---------------------------------------------------------
+The folder contains four .java files along with this readme file.
+
+Overview
+---------------------------------------------------------
+When executed, these .java files generates a base synopsis of user given length  
+for user provided number of nodes. When TestCount.java is executed the main function
+of SGCount.java is executed 16 times providing the user with 16 different base
+synopsis values.Same goes with TestSum.java and SGSum.java
+
+Executing the programs
+---------------------------------------------------------
+In order to run the code in eclipse, firstly open each .java file and copy the contents 
+into a java project in eclipse and then run the programs. 
+
+Example execution
+--------------------
+>If the TestCount.java is considered for the execution.
+>once you run the program, "Enter number of nodes" is appeared on the console.
+>Here you can enter any number of nodes(eg;10000,40000etc).
+>once entered another sentence appears saying "Enter Synopsis length".
+>Here you can enter the bit length of synopsis as 16,32,64 etc. 
+>after this the output is displayed saying "Base Synopsis value:" 
+>Below this there is a line displaying the round number as the indication of the 
+total number of times the program is executed.
+>For 16 times same process is repeated. In order to calculate the average of the 
+base synopsis you can write down the 16 base synopsis. 
+Same process is followed with TestSum.java.

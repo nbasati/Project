@@ -11,8 +11,9 @@ synopsis values.Same goes with TestSum.java and SGSum.java
 
 Executing the programs
 ---------------------------------------------------------
-In order to run the code in eclipse, firstly open each .java file and copy the contents 
-into a java project in eclipse and then run the programs. 
+In order to run the programs you can directly clone the project into your eclipse 
+git repository using the https link of the project in github, and then import it 
+into the java repository and run the programs.
 
 Example execution
 --------------------
